@@ -1,0 +1,84 @@
+container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.add-user {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #4caf50;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.error {
+  color: rgb(232, 26, 26);
+  text-align: center;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination span {
+  padding: 10px 20px;
+  font-size: 16px;
+}
